@@ -1,0 +1,4 @@
+<form method="post" action="{% url 'news_create' %}">
+  {% csrf_token %}
+  <button type="submit">Редактировать</button>
+</form>
